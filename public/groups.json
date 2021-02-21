@@ -11,6 +11,9 @@
           "path": "json/both-command_l-and-command_r-to-escape.json"
         },
         {
+          "path": "json/button4_button5.json"
+        },
+        {
           "path": "json/caps_lock.json"
         },
         {

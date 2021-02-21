@@ -1,0 +1,49 @@
+{
+	"title": "Change button4/button5 to command+open/close_bracket",
+	"rules": [
+		{
+			"description": "Change button4 to command+open_bracket",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"pointing_button": "button4",
+						"modifiers": {
+							"optional": "any"
+						}
+					},
+					"to": [
+						{
+							"key_code": "open_bracket",
+							"modifiers": [
+								"command"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Change button5 to command+close_bracket",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"pointing_button": "button5",
+						"modifiers": {
+							"optional": "any"
+						}
+					},
+					"to": [
+						{
+							"key_code": "close_bracket",
+							"modifiers": [
+								"command"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
